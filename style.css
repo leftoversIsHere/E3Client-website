@@ -1,0 +1,36 @@
+body {
+  background-image: url("background.jpg");
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-color: black;
+  text-align: center;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-color: black;
+  text-align: center;
+}
+header {
+  background-color: tan;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: lightblue;
+  padding: 10px;
+}
+
